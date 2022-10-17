@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-30T10:06:58.365Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 Edg/104.0.1293.70" etag="wHJH_GFefdIjE2B64m_6" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-17T22:06:56.805Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="_F4VjkZuE833_bLFGPZT" version="20.4.1" type="github">
   <diagram id="VetBNQHm5i8-eGRBxpqQ" name="Page-1">
-    <mxGraphModel dx="1603" dy="708" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1508" dy="482" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -294,20 +294,47 @@
         <mxCell id="ayRyaowb3RTERZbh5NA6-29" value="1. Provision a VM&lt;br&gt;2. create a webapp&lt;br&gt;3.register a vm into ADO agent pool&lt;br&gt;&lt;b&gt;pre.req : - Needs to be service connection b/w devops and webapp&lt;br&gt;&lt;/b&gt;4.By using that Vm we can deploy package of code into webapp&lt;br&gt;a) Repo needs to be created&lt;br&gt;b) Build pipeline needs to be created&lt;br&gt;c) Release pipe line needs to be created" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="-117" y="2090" width="299" height="299" as="geometry" />
         </mxCell>
-        <mxCell id="rIQ95Y_g8BBo3Cc0K7wP-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="rIQ95Y_g8BBo3Cc0K7wP-3" target="ayRyaowb3RTERZbh5NA6-12">
+        <mxCell id="rIQ95Y_g8BBo3Cc0K7wP-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="rIQ95Y_g8BBo3Cc0K7wP-3" target="ayRyaowb3RTERZbh5NA6-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rIQ95Y_g8BBo3Cc0K7wP-3" value="swap" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="rIQ95Y_g8BBo3Cc0K7wP-3" value="swap" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="-49" y="2697" width="380" height="380" as="geometry" />
         </mxCell>
-        <mxCell id="rIQ95Y_g8BBo3Cc0K7wP-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rIQ95Y_g8BBo3Cc0K7wP-4" target="rIQ95Y_g8BBo3Cc0K7wP-5">
+        <mxCell id="rIQ95Y_g8BBo3Cc0K7wP-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="rIQ95Y_g8BBo3Cc0K7wP-4" target="rIQ95Y_g8BBo3Cc0K7wP-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rIQ95Y_g8BBo3Cc0K7wP-4" value="webapp 1.0&lt;br&gt;production" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rIQ95Y_g8BBo3Cc0K7wP-4" value="webapp 1.0&lt;br&gt;production" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-15" y="2732" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="rIQ95Y_g8BBo3Cc0K7wP-5" value="webapp 1.0&lt;br&gt;UAT" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rIQ95Y_g8BBo3Cc0K7wP-5" value="webapp 1.0&lt;br&gt;UAT" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="155" y="2927" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="k4etD2iPtFle69NCXr01-84" value="&lt;h1 style=&quot;text-align: left;&quot;&gt;# Class-19&lt;/h1&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="194" y="3172" width="137" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="k4etD2iPtFle69NCXr01-85" value="&lt;b&gt;Building a docker image&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-33" y="3247" width="157" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="k4etD2iPtFle69NCXr01-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="k4etD2iPtFle69NCXr01-86" target="k4etD2iPtFle69NCXr01-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k4etD2iPtFle69NCXr01-86" value="Step 1 Docker file" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-11" y="3296" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k4etD2iPtFle69NCXr01-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="k4etD2iPtFle69NCXr01-87" target="k4etD2iPtFle69NCXr01-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k4etD2iPtFle69NCXr01-87" value="2 . Building a Docker Image" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-11" y="3467" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k4etD2iPtFle69NCXr01-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="k4etD2iPtFle69NCXr01-88" target="k4etD2iPtFle69NCXr01-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k4etD2iPtFle69NCXr01-88" value="3.Push image to Azure Container" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="266" y="3467" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k4etD2iPtFle69NCXr01-89" value="4.Container creation using container instance" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="541" y="3467" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
